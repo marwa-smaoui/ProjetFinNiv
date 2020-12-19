@@ -1,0 +1,221 @@
+
+.form-control{
+    margin-top: 9%;
+   color: #acaaa6;
+
+}
+.form-control-valign{
+    margin-top: 5%;}
+
+
+.form-label{
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: -5%;
+    font-weight: bold;
+
+ }
+ .btn[name="save"] {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 42%;
+    height: 35px;
+    background-color: darkcyan;
+    border-color: rgb(3, 110, 110);
+    color: cornsilk;
+    text-transform: uppercase;
+
+  
+}
+.icons{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+ .forgot-password>a{
+     margin-left: 40%;
+     color: darkcyan;   
+     /* color: yellowgreen;
+  */
+ }
+h4[name="header"]{
+    text-align: center;
+    /* background-color: rgb(86, 88, 82); */
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 20%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: yellowgreen;
+    
+    /* color: darkcyan; */
+}
+
+ .card {
+     margin-top: 2%;
+     margin-left: 15%;
+     margin-right: 20%;
+    position: relative;
+    display: block;
+    margin-bottom: .75rem;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 5px solid rgba(0,0,0,.125);
+}
+.header{margin-top: 100px;
+background-color: transparent;}
+
+.box3{
+    margin-top: 40px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    max-height: auto;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: darkcyan;
+    text-align: center;
+    max-width: 101%;
+   
+}
+.text-uppercase{font-size: 1.2em;}
+.page-footer {background-color: rgb(229, 236, 218);}
+.list-unstyled { margin-top: -38px;
+margin-right: 80px;}
+.fa-facebook-f, .fa-twitter,.fa-google-plus,.fa-instagram{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+h6[name="title"]{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+#lien{ text-decoration: none;
+color: black;}
+
+.no-account{
+    color: darkcyan;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center; 
+    margin-left: 2%;
+ 
+}
+#logo{
+    width: 150px;
+    height: 90px;
+margin-left: 50px;
+margin-top: -25px;
+
+}
+
+
+.nav-items{
+    font-family: 'PT+Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+    line-height: 30px;
+    color: rgb(10, 151, 151);
+    position: relative;
+   margin-top: 30px;
+  padding-left: 30px;
+  margin-left: -10px;
+    }
+    .nav-items:hover{
+   color:yellowgreen;
+    cursor: pointer; 
+    display: block;
+    
+    }
+.dropdowns{
+display: none;
+position: absolute;
+background-color:rgb(240, 241, 237);
+width: 200px;
+box-shadow: 5px 5px 8px #888888;
+z-index: 1;
+}
+.nav-items:hover .dropdowns{ display: block;}
+.nav-items1:hover .dropdowns{ display: block;}
+.dropdowns a{
+color: darkcyan;
+text-decoration: none;
+display: block;
+height: 50px;
+font-family: 'PT+Sans', Arial, Helvetica, sans-serif;
+font-size: 1em;
+font-weight: bold;
+line-height: 20px;
+padding: 5px 15px;
+} 
+.dropdowns a:hover{ 
+color: yellowgreen; 
+background-color: rgba(165, 158, 158, 0.26)
+}
+.fa{color: #88c441;}
+li{ display: inline-block;
+list-style: none;
+
+}
+#icon{
+margin-top: 20px;
+margin-left: 30px;}
+ .navbar-nav{
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+      
+   }
+   .navbar-nav>li>a{text-decoration: none;
+    color:rgb(10, 151, 151);
+    }
+    .navbar-nav>li {
+        text-decoration: none;
+    }
+
+
+   #item_count{
+   position: absolute;
+   margin-top: 3px;
+    margin-left:-5px;
+   width: 20px;
+   height: 20px;
+   background: yellowgreen;
+   line-height: 20px;
+   text-align: center;
+   border-radius: 100%;
+   color: #fff;
+   font-size: 10px;
+}
+#lien{ text-decoration: none;
+    color: black;}
+
+@media (max-width:50em){
+    .form-label{
+        margin-left: 0;
+    }
+
+.btn[name="save"]{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.card{
+    padding: 20px;
+}
+.forgot-password>a{
+
+    margin: 0;
+    text-align: center;
+}
+}
+
+

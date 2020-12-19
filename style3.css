@@ -1,0 +1,72 @@
+
+ 
+ .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    padding-bottom: 100px;
+   max-height: 3000px; 
+
+ }
+ #image{
+     width: 300px;
+     height: 300px;
+     margin-left: -50px;
+     margin-top: -20px;
+    
+ }
+ .fa-remove,.fa-heart{
+     margin-left: 50px;
+    
+ }
+ .icons{
+     margin-top: 10%;
+     margin-left: -120px;
+ }
+.quantite,.prix,.total,.cart{
+    margin-top: 10%;
+ }
+ .description{
+    margin-top: 10%;
+    margin-left: -100px;
+ }
+ .btn[name="commander"] {
+    margin-left: 5px;
+    height: 38px;
+    background-color: #88c441;
+    color: white;
+}
+.btn[name="max-min"] {
+    margin-left: 5px;
+    height: 38px;
+    background-color:darkcyan;
+    color: white;
+   
+}
+#decriment{
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#incriment{
+    padding-right: 9px;
+    padding-left: 9px;
+    cursor: pointer;
+}
+.fa-minus-circle{
+    
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.fa-heart{
+   
+  cursor: pointer;
+}
+#qte,#montant,#dinar{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+

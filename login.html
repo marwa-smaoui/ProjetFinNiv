@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="icon" href="./res/logo.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="./style2.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+  <nav class="navbar  navbar-fixed-top  navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="navbar-brand">
+       
+      <li><a  href="./acceuil.html"><img src="res/mpara.png" alt="logo" id="logo" ></a></li>
+    </ul>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-items active"> SOINS ET BEAUTÉ
+          <div class="dropdowns">
+              <a href="#" > Visage</a>
+              <a href="#" > Corps</a>
+              <a href="#" > Cheveux</a>
+          </div>
+      </li>
+      <li class="nav-items active"> MAMAN ET BÉBÉ
+        <div class="dropdowns">
+            <a href="#" > Puericulture </a>
+            <a href="#" > Soins bébé</a>
+            <a href="#" > Maman </a>
+        </div>
+         </li>
+         <li class="nav-items active"><a href="#box1" > PRODUITS</a></li>
+         <li class="nav-items active" ><a  href="#box2">BLOGS </a></li>
+    
+     
+      <li class=" nav-items form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="RECHERCHER">
+      </li>
+  
+      <li  class="icons "><a i class="fa fa-search fa-1x" href="#"></i></a></li>
+     <li class=" icons "><a i class= "fa fa-user fa-1x" href="./login.html" ></i></a></li>
+     <li class="icons "><a i class= "fa fa-shopping-bag fa-1x" ></i></a>
+      <span id="item_count"> 0 </span>
+    
+  </ul>
+  </ul>
+    
+    </div>
+  </nav>
+      <form id="form1" class="was-validated">
+
+        <div >
+          <h4 name="header">Connectez-vous à votre compte
+          </h4> 
+          </div>
+   <div class="card">
+    
+      <div class="form-group row ">
+        <label class="col-md-3 form-label required">
+                  E-mail
+        </label>
+        <div class="col-md-6 col-sm-12 col-lg-3">
+  
+         <input class="form-control" name="email" type="email" value="" maxlength="" required="">
+                    
+        </div>
+    
+      </div>
+        
+      <div class="form-group row ">
+        <label class="col-md-3 form-label required">
+                  Mot de passe
+        </label>
+        <div class="col-md-6 col-sm-12 col-lg-3">
+
+         <div class="input-group js-parent-focus">
+           <input class="form-control" name="pwd" type="password" value="" pattern=".{5,}" required="">
+           
+         </div>
+      
+        </div>
+    
+      </div>
+            
+          <div class="forgot-password">
+            <a href="#" rel="nofollow">
+              Mot de passe oublié ?
+            </a>
+          </div>
+     
+        
+  
+            
+        
+              <button name="save" class="btn btn-primary" data-link-action="sign-in" type="submit">
+                Connexion
+              </button>
+               
+     
+      </form>
+    
+          <div class="no-account">
+            <a href="./compte.html">
+              Pas de compte ? Créer un ici
+            </a>
+          </div>
+  </div>
+
+
+
+
+
+  <footer>
+
+    <div class="box3 row">
+      <div class="col-lg-2  col-md-3 col-sm-12 " >
+        <img src="./footer/livraison.png">
+        <div >
+          <h6 name="title">LIVRAISON RAPIDE</h6>
+      </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-12  " >
+        <img src="./footer/carte-bancaire.png">
+        <div >
+          <h6 name="title">Paiement sécurisé </h6>
+        </div>
+        
+      </div>
+      <div class="col-lg-2  col-md-3 col-sm-12  " >
+        <img src="./footer/fidelite.png">
+        <div >
+          <h6 name="title">Programme de fidelité</h6>
+        </div>
+       
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-12  " >
+        <img src="./footer/certifier.png">
+        <div >
+          <h6 name="title">Marque certifiée </h6>
+        </div>
+       
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-12 ">
+        <img src="./footer/contact.png">
+        <div >
+          <h6 name="title">Services cilients</h6>
+        </div>
+       
+      </div>
+    </div>
+     
+  
+    <!-- Footer -->
+  <div class="page-footer font-small mdb-color pt-4">
+  
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Footer links -->
+      <div class="row text-center text-md-left mt-3 pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h7 class="text-uppercase mb-4 font-weight-bold"  style="color: darkcyan;">QUI SOMMES-NOUS ?</h7>
+          <p id="lien">Votre parapharmacie en ligne. Notre objectif est de vous satisfaire en termes de choix, qualité, prix et service.</p>
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="w-100 clearfix d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h7 class="text-uppercase mb-4 font-weight-bold" style="color:  darkcyan;">INFORMATIONS</h7>
+          <p>
+            <a id="lien" href="#!">Qui sommes nous</a>
+          </p>
+          <p>
+            <a id="lien" href="#!">Nous contacter</a>
+          </p>
+          <p>
+            <a id="lien" href="#!">Conditions générales de vente</a>
+          </p>
+          <p>
+            <a id="lien" href="#!">Nos magasins</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="w-100 clearfix d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h7 class="text-uppercase mb-4 font-weight-bold"  style="color: darkcyan;">SERVICES</h7>
+          <p>
+            <a  id="lien" href="#!">Nouveaux produits</a>
+          </p>
+          <p>
+            <p>
+              <a id="lien" href="#!">Promotions</a>
+            </p>
+            <a id="lien" href="#!">Marques</a>
+          </p>
+          <p>
+            <a  id="lien" href="#!">Blog</a>
+          </p>
+        </div>
+  
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h7 class="text-uppercase mb-4 font-weight-bold"  style="color: darkcyan;">Nous contacter </h7>
+          <p id="lien">
+            <i class="fa fa-home mr-3"></i> SFAX, Tunisie</p>
+          <p id="lien">
+            <i class="fa fa-envelope mr-3"></i> info@gmail.com</p>
+          <p id="lien">
+            <i class="fa fa-phone mr-3"></i> + 216 234 567 88</p>
+          <p id="lien" >
+            <i class="fa fa-print mr-3"></i> + 216 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Footer links -->
+  
+      <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+  
+          <!-- Facebook -->
+          <a type="button" class="btn-floating btn-fb">
+            <i class="fa fa-facebook-f"></i>
+          </a>
+          <!-- Twitter -->
+          <a type="button" class="btn-floating btn-tw">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <!-- Google +-->
+          <a type="button" class="btn-floating btn-gplus">
+            <i class="fa fa-google-plus"></i>
+          </a>
+          <!-- instagram -->
+          <a type="button" class="btn-floating btn-instagram">
+            <i class="fa fa-instagram"></i>
+          </a>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MPARA</a>
+    </div>
+    <!-- Copyright -->
+  </div>
+  <!-- Footer -->
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
